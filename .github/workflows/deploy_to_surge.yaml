@@ -39,6 +39,3 @@ jobs:
     - name: Run Surge
       working-directory: './build'
       run: surge ./ hasanza-shoe-store.surge.sh --token ${{secrets.MY_SURGE_TOKEN}}
-    - name: show files
-      working-directory: './build'
-      run: ls
