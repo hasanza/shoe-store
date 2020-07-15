@@ -13,7 +13,7 @@ function Nav() {
                     <li><Link to="launch">Launch</Link></li>
                     </ul>
                 </nav>
-                <a className={styles.cta} href="#"><button>Contact</button></a>
+                <button>Contact</button>
             </header>
         </div>
     )
