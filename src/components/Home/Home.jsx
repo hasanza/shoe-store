@@ -8,6 +8,7 @@ function Home() {
             <h1>Welcome to Shoeper</h1>
             <br/>
             <button className={styles.btn}><Link to="/launch">Enter</Link></button>
+            <div className={styles.linearWipe} id={styles.credit}>Made with ❤ by <a href="https://github.com/hasanza/shoe-store" alt="github link">Hasan Raza</a></div>
         </div>
     )
 }

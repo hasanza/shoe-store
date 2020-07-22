@@ -5,7 +5,7 @@ import { Home, Nav, Launch, LaunchIndex, LaunchShoe } from "./components";
 
 function App() {
   return (
-    <>
+
       <Router>
         <Nav />
         <Routes>
@@ -17,8 +17,8 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
-      <p id="credit">Made with ❤ by <a href="https://github.com/hasanza/shoe-store" alt="github link">Hasan Raza</a></p>
-    </>
+      
+    
   );
 }
 

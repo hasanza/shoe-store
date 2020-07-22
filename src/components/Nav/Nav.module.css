@@ -49,3 +49,14 @@ button {
 button:hover {
     background-color: rgba(0,136,168,0.8);
 }
+
+@media(max-width: 600px) {
+    header {
+       flex-direction: column; 
+    }
+
+    header * {
+        margin: 2% 0;
+    }
+
+}
