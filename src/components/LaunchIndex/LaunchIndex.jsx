@@ -5,16 +5,16 @@ import shoes from "../../Public/shoes";
 
 function LaunchIndex() {
   return (
-    <ul className={styles.ul}>
+    <div className={styles.list}>
       {Object.entries(shoes).map(([key, { name, img }]) => (
-        <li key={key}>
-          <Link to={`/launch/${key}`}>
+        <div key={key} class={styles.item}>
+          <Link to={`/launch/${key}`} className={styles.element}>
             <h3>{name}</h3>
             <img src={img} alt={name} />
           </Link>
-        </li>
+        </div>
       ))}
-    </ul>
+    </div>
   );
 }
 

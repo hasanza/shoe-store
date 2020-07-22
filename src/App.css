@@ -5,3 +5,10 @@
   background-color: #24252A;
   color: #edf0f2;
 }
+
+#credit {
+  text-align: center;
+  bottom: 10px;
+  position: absolute;
+  width: 100%;
+}

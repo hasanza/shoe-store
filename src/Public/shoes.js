@@ -4,8 +4,8 @@ const shoes = {
       img:
         "https://secure-images.nike.com/is/image/DotCom/CT8532_104_A_PREM?$SNKRS_COVER_WD$&align=0,1"
     },
-    "jordan-mars-270-london": {
-      name: "JORDAN MARS 270 LONDON",
+    "jordan-mars": {
+      name: "JORDAN MARS",
       img:
         "https://secure-images.nike.com/is/image/DotCom/CV3042_001_A_PREM?$SNKRS_COVER_WD$&align=0,1"
     },
